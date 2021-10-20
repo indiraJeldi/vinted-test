@@ -1,0 +1,5 @@
+index:
+    path: /discount/calculation
+    controller: App\Controller\DiscountCalculation::index
+
+#
