@@ -122,7 +122,7 @@ class DiscountCalculationController extends AbstractController
         }
         $file = null;
         $this->writeToFile($finalData);
-        return $this->json("Check the testOutPut.txt file");
+        return $this->json("Check the uploads\testOutPut.txt file");
     }
 
     /**
